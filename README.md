@@ -20,6 +20,7 @@ This repo covers:
 - Quick sort
 - Trees and binary search trees
 - Heaps and heap sort
+- Graph
 
 The notebooks are written for learning by implementation, so most topics are built from scratch instead of relying on Python libraries.
 
@@ -171,6 +172,30 @@ It covers:
 
 This notebook shows how heaps are stored in arrays and how parent-child index relationships work.
 
+### `Graph.ipynb`
+
+Introduces the concept of graphs, including:
+
+- graph representation using an adjacency list
+- adding nodes and edges
+- displaying the graph
+- detecting cycles
+- calculating degree of separation between two nodes
+
+Graphs are useful for modeling complex relationships in data, such as social networks or network routing.
+
+### `Trie.ipynb`
+
+Implements a Trie (prefix tree) to store strings efficiently:
+
+- inserting words
+- searching for a word
+- checking if a prefix exists
+- deleting a word
+- providing suggestions based on a prefix
+
+This data structure is particularly useful for autocomplete features, spell checkers, and efficient text retrieval.
+
 ## Basic idea of the data structures and algorithms in this repo
 
 ### Array
@@ -222,6 +247,25 @@ Recursion is a method where a function solves a problem by calling itself on a s
 - Quick sort chooses a pivot and partitions around it.
 - Heap sort uses heap structure to repeatedly place the largest value in its final position.
 
+### Graphs
+
+Graphs are used to represent networks where nodes (vertices) are connected by edges. Common operations include:
+
+- adding nodes and edges
+- traversing the graph using DFS or BFS
+- detecting cycles
+- finding shortest paths
+
+### Tries
+
+Tries are a type of search tree that store strings efficiently:
+
+- insert words
+- search for a word
+- check if a prefix exists
+- delete a word
+- provide suggestions based on a prefix
+
 ## How to use this repo
 
 ### Option 1: Open locally with Jupyter
@@ -267,27 +311,8 @@ cd DSA_in_python
 
 ## Who this repo is for
 
-This repository is useful for:
+This repository is useful for anyone looking to learn and practice data structures and algorithms in Python. It's suitable for beginners as well as advanced learners seeking to deepen their understanding of these fundamental concepts.
 
-- beginners learning DSA in Python
-- students practicing interview-style concepts
-- anyone who wants notebook-based examples instead of only theory
+## Conclusion
 
-## Notes
-
-- The repository is notebook-based, so the best way to explore it is topic by topic.
-- Some notebooks are focused on implementations more than explanation text.
-- The file `Linear&Binary_serach.ipynb` keeps the original filename used in the repo.
-
-## Contributing
-
-If you fork this repository, you can:
-
-- improve explanations
-- add more test examples
-- add time and space complexity notes
-- expand the missing topics in future notebooks
-
-## Author
-
-Created by Don Soby.
+This repository provides a comprehensive set of notebooks covering a wide range of data structures and algorithms. Each notebook includes clear explanations, practical examples, and hands-on exercises to help you master the topics. Whether you're preparing for technical interviews, enhancing your coding skills, or simply curious about how these structures work, this repo has something for everyone.
